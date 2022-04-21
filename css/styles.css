@@ -114,17 +114,17 @@ hr:not([size]) {
 @keyframes animate{
   0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
   {
-      color: #0485a9;
+      color: #000405;
       text-shadow: none;
   }
   18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
   {
-      color: #fff;
-      text-shadow: 0 0 10px #03bcf4,
-      0 0 20px #03bcf4,
-      0 0 40px #03bcf4,
-      0 0 80px #03bcf4,
-      0 0 160px #03bcf4;
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 10px #120133,
+      0 0 20px #f4f4f4,
+      0 0 40px #faf8f8,
+      0 0 80px #fffbfb,
+      0 0 160px #f8f4f2;
   }
 }
 
@@ -140,8 +140,15 @@ hr:not([size]) {
 
 .masthead .banner-content .text-3 .typing {
   font-size: 40px;
-  color: rgb(255, 255, 255);
+  color: rgb(80, 14, 234);
+  text-shadow: #000405;
 }
+
+.page-section .text-3 span{
+  color: rgb(126, 179, 119);
+  font-weight: 80;
+}
+
 
 
 
@@ -10529,7 +10536,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #fff;
   opacity: 1;
 }
 

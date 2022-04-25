@@ -114,13 +114,13 @@ hr:not([size]) {
 @keyframes animate{
   0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
   {
-      color: #000405;
+      color: #05647c;
       text-shadow: none;
   }
   18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
   {
-      color: rgb(255, 255, 255);
-      text-shadow: 0 0 10px #120133,
+      color: rgb(10, 153, 210);
+      text-shadow: 0 0 10px #075b9f,
       0 0 20px #f4f4f4,
       0 0 40px #faf8f8,
       0 0 80px #fffbfb,
@@ -140,8 +140,8 @@ hr:not([size]) {
 
 .masthead .banner-content .text-3 .typing {
   font-size: 40px;
-  color: rgb(80, 14, 234);
-  text-shadow: #000405;
+  color: rgb(246, 244, 244);
+  text-shadow: rgb(29, 28, 28);
 }
 
 .page-section .text-3 span{
@@ -10672,4 +10672,16 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+footer{
+  padding: 8px 0;
+  background-color: #333;
+}
+
+.footerone {
+  padding: 30px 0;
+  background-color: #05647c;
+  color: #fff;
+  text-align: center;
 }
